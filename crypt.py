@@ -1,9 +1,9 @@
 #crypt
 def isWorld (read):
-    for i in range(65, 91):  # maiusculo
+    for i in range(65, 91):  # Small letter
         if read == chr(i):
             return True
-    for i in range(97, 123):  # maiusculo
+    for i in range(97, 123):  # Capital letter
         if read == chr(i):
             return True
 
